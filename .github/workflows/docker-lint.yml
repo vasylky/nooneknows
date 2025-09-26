@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - 'Dockerfile'
-      - 'frontend/Dockerfile'
-      - 'backend/Dockerfile'
+      - 'nooneknows/frontend/Dockerfile'
+      - 'nooneknows/backend/Dockerfile'
   pull_request:
     paths:
       - 'Dockerfile'
