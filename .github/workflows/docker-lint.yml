@@ -4,9 +4,13 @@ on:
   push:
     paths:
       - 'Dockerfile'
+      - 'frontend/Dockerfile'
+      - 'backend/Dockerfile'
   pull_request:
     paths:
       - 'Dockerfile'
+      - 'frontend/Dockerfile'
+      - 'backend/Dockerfile'
 
 jobs:
   dockerfile-lint:
